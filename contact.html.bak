@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Vivek">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="logo.png">
+</head>
+<body id="body">
+  <div class="container">
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-logo">
+        <!-- <h2><a href="#">< YOUR LOGO ></a></h2> -->
+        <div class="img-logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Logo">
+          </a>
+         </div>
+         <img src="img/svg/menu.svg" id="mainMenu" alt="Menu">
+      </div>
+      <ul class="nav-links" id="mainLink">
+		<li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="index.html"><b>About</b></a></li>
+        <li><a href="portfolio.html"><b>Project</b></a></li>
+        <li><a href="portfolio.html">Skills</a></li>
+        <li class="active"><a href="contact.html"><b>Blog</b></a></li>
+      </ul>
+    </nav>
+
+    <header class="main-banner-contact">
+       <div class="overl"></div>
+       <div class="title">
+         <h1><b>Contact Me</b></h1>
+       </div>
+    </header>
+    <!-- About  Link-->
+    <div id="about"></div><br>
+    <section class="main-section">
+      <!-- Contact -->
+      <div id="contact"></div><br>
+       <p class="p-desc">
+          <b>I'd love your feedback!</b>
+       </p>
+        <div class="social">
+           <a href="">
+               <img src="img/social/facebook.gif">
+             </a>
+              <a href="">
+               <img src="img/social/twitter.gif">
+             </a>
+             <a href="">
+               <img src="img/social/pinterest.gif">
+              </a>
+             <a href="">
+               <img src="img/social/instagram.gif">
+              </a>
+          </div>
+       <div class="contact">
+         <div class="address">
+           <div class="address-link">
+             <img src="img/svg/email.svg">
+             <h3 title="My Email"><b>vivekravishankar007@gmail.com</b></h3>
+           </div>
+           <div class="address-link">
+             <img src="img/svg/phone.svg">
+             <h3><b>+91 94878 82699</b></h3>
+           </div>
+           <div class="address-link">
+             <img src="img/svg/home.svg">
+             <h3><b>Tirupattur, Tamil Nadu, India</b></h3>
+           </div>
+         </div>
+         <div class="form">
+           <form action="" method="POST">
+              <div class="row">
+                  <label for="fname"><b>Name</b></label>
+                  <input type="text" placeholder="Your name..">
+              </div>
+              <div class="row">
+                  <label for="lname"><b>Email</b></label>
+                  <input type="text"  placeholder="Your email..">
+              </div>
+              <div class="row">
+                  <label for="subject"><b>Message</b></label>
+                  <textarea name="subject" placeholder="Write something.."></textarea>
+              </div>
+              <div class="row">
+                <button type="submit"><b>Send</b></button>
+              </div>
+            </form>
+         </div>
+       </div>
+    </section>
+    <footer class="main-footer">
+      </footer>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
